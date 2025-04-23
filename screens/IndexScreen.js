@@ -6,7 +6,7 @@ export default function IndexScreen() {
   const {data,addBlogPost} = useContext(BlogContext);
   return (
     <View>
-      {/* <Text>IndexScreen </Text> */}
+      { /*<Text>IndexScreen </Text> */}
       <Button title='Ekle'/>
       <FlatList
         data={data}
